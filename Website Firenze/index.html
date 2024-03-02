@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Firenze</title>
+</head>
+<body>
+    <!--Hero Section Start-->
+    <header id="hero-section">
+        <h1 id="title">Visit Florence</h1>
+        <p id="hero-info">Visit Florence. <em>UNESCO World Heritage</em> since 1982. And experience its masterpieces, unique work of art and mouth-watering stakes and street food</p>
+        <div id="hero-btns">
+            <button class="btn">Know More</button>
+            <button class="btn" id="book-btn">Book a Visit</button>
+        </div>
+    </header>
+    <section id="activities">
+        <h2 id="activity-title">Top Three Activities To Do in Florence</h2>
+        <div  id="activity-section">
+            <div class="activity-block">
+                <img src="media/Images/ponte-vecchio.jpg" alt="Direct facing view picture of Ponte Vecchio in florence. Picture dated from the Arno lake point of view.">
+                <div class="activity-desc">
+                    <h3 class="activity-title">Walk Around The Centre</h3>
+                    <p>The center of Florence has majestics arts, churches, museums adn culture specific shops and major fashion brands on its streets.</p>
+                </div>
+            </div>
+            <div class="activity-block">
+                <img src="media/Images/uffizzi.jpg" alt="Photo taken from piazzale degli uffizzi, looking towards the Arno lake and, houses and southern hiils">
+                <div class="activity-desc">
+                    <h3 class="activity-title">Visit Uffizzi</h3>
+                    <p>Visit the Uffizzi to access the collections of paintings from the 14th-century and Renaissance period, the major mastrpieces of that era.</p>
+                </div>
+            </div>
+            <div class="activity-block">
+                <img src="media/Images/chianti.jpg" alt="Direct facing view picture of Ponte Vecchio in florence. Picture dated from the Arno lake point of view.">
+                <div class="activity-desc">
+                    <h3 class="activity-title">Visit Chianti</h3>
+                    <p>Drive south of Florence to have a breath of air and experience the pinnacle of wine making, gorgeus soft hills and unique family owned wineries.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="content-form">
+        <div id="sct-content">
+            <h4>Check our audio guide below:</h4>
+            <audio controls>
+                <source src="Media/Audio/Florence.mp3" type="mp3"/>
+                <source src="Media/Audio/Florence .wav" type="wav"/>
+            </audio>
+            <p id="video-link">
+                <a href="https://www.youtube.com/watch?v=WtYqQoxVTIQ" target="_blank">Click Here</a> to see more (aerial video)
+            </p>
+        </div>
+        <form>
+            <h4>Fill Out The Form For more info</h4>
+            <label for="name">First Name</label>
+            <input type="text" name="" id="name" placeholder="Your name"><br>
+            <label for="email">Your Email</label>
+            <input type="email" name="" id="email" placeholder="Your email">
+            <h4>Where are you from?</h4>
+                <input type="radio" id="usa" name="country-from" value="USA">
+                <label for="usa">USA</label><br>
+                <input type="radio" id="latam" name="country-from" value="Latam">
+                <label for="latam">Latam</label><br>
+                <input type="radio" id="europe" name="country-from" value="Europe">
+                <label for="europe">Europe</label><br>
+                <input type="radio" id="asia" name="country-from" value="Asia">
+                <label for="asia">Asia</label><br>
+    
+                <input type="submit" value="Submit" id="submit-btn">
+    
+        </form>
+    </div>
+
+    
+</body>
+</html>
+
+
+<!--Things I need to add
+
+- Audio (think of where)
+- Form with input 
+- maybe a video?
+
+-->

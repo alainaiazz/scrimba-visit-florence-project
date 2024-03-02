@@ -1,0 +1,139 @@
+/* Basic Page rules */
+
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+
+}
+
+
+
+/* Heading */
+
+#hero-section {
+    height: 345px;
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Media/Images/firenze.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn {
+    font-family: "Lato", sans-serif;
+    padding: 6px 15px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: solid 1px white;
+}
+
+#book-btn {
+    font-family: "Lato", sans-serif;
+    background-color: #fff;
+    color: black;
+}
+
+.btn:hover {
+    background-color: #000000e1;
+    color: white;
+}
+
+#book-btn:hover {
+    background-color: #000000e1;
+    color: white;
+}
+
+#title {
+    font-size: 39px;
+    font-family: "Montserrat", sans-serif;
+}
+
+#title, #hero-info {
+    color: white;
+    text-align: center;
+    text-shadow: 0 10px 80px black;
+    font-family: "Montserrat", sans-serif;
+   
+    border-radius: 10px;
+    padding: 6px 16px;
+}
+
+#hero-info {
+    width: 500px;
+    border-radius: 10px;;
+}
+
+
+
+/* Activities Section */
+
+img {
+    width: 100px;
+    height: 100px;;
+    border: solid 1px darkgray;
+    border-radius: 50%;
+    box-shadow: 0 0 15px darkgrey;
+}
+
+#activities {
+    margin: 80px auto 0 auto;
+    width: 85%;
+}
+
+#activity-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.activity-block {
+    width: 250px;
+    font-size: 16px;
+    padding: 0 15px 0 15px;
+}
+
+.activity-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;;
+}
+
+#activity-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+#content-form {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 80px auto 0 auto;
+}
+
+h4 {
+    font-family: "Montserrat", sans-serif;
+}
+
+form {
+    text-align: center;
+    padding: 15px 0 25px 0;
+    width: 350px;
+    margin: 0 auto;
+    border-radius: 15px;;
+    border: solid 1px black;
+}
+
+#submit-btn {
+    margin-top: 15px;
+}
+/* New Section with more info,audio and video */
+
